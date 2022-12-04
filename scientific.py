@@ -1,6 +1,6 @@
 #Scientific Calculator
 import math as m
-def information():
+def info():
     '''****** Python Mini Project******
 
 This project is based on scientific calculator on which you can calculate different  operation:
@@ -13,9 +13,9 @@ Conversion such as (radian to degree,degree to radian)
 '''    
 
 
-def addition(a,b):
+def add(a,b):
     return a+b
-def substraction(a,b):
+def sub(a,b):
     return a-b
 def multiplication(a,b):
     return a*b
@@ -56,7 +56,7 @@ print('''
 13.Degree To Radian''')
 
 
-option =eval(input('What operation do you want to perform? '))
+option =eval(input('Enter your operation  '))
 
 while option<=13:
     if option == 1:
@@ -98,8 +98,7 @@ while option<=13:
     elif option == 7:
         print('*****Square Root Operation*****')
         n1 = eval(input("Enter  Number "))
-        result = sqare_root(n1,)
-        print("The Square Root of {}  is {}".format(n1,result))
+        result = Square Root of {}  is {}".format(n1,result))
     elif option == 8:
         print('*****Square Operation*****')
         n1 = eval(input("Enter first Number "))
