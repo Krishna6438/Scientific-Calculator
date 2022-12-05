@@ -98,7 +98,8 @@ while option<=13:
     elif option == 7:
         print('*****Square Root Operation*****')
         n1 = eval(input("Enter  Number "))
-        result = Square Root of {}  is {}".format(n1,result))
+        result = square_root(a)
+        print("Square Root of {}  is {}".format(n1,result))
     elif option == 8:
         print('*****Square Operation*****')
         n1 = eval(input("Enter first Number "))
